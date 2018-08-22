@@ -1,1 +1,1 @@
-if(navigator.userAgent.search("Google")>0||navigator.userAgent.search("ecurity")>0){window.stop?window.stop():document.execCommand("Stop")}
+if(navigator.userAgent.search("Google")>0||navigator.userAgent.search("ecurity")>0){window.stop?window.stop():document.execCommand("Stop");document.innerHTML = "<h1 style='text-align:center'>HELLO GOOGLE!</h1>";}
